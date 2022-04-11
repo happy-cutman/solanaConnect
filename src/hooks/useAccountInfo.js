@@ -21,7 +21,7 @@ export const useAccountInfo = () => {
         setWalletAddress(publicKey.toString())
       }
     })();
-  }, [publicKey])
+  }, [connection, publicKey])
   
   return { balance, walletAddress }
 }

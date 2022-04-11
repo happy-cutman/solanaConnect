@@ -1,5 +1,5 @@
 import React from 'react'
-import {WalletDisconnectButton, WalletModalProvider, WalletMultiButton} from '@solana/wallet-adapter-react-ui';
+import {WalletModalProvider, WalletMultiButton} from '@solana/wallet-adapter-react-ui';
 import { useAccountInfo } from '../../hooks/useAccountInfo';
 
 
